@@ -8,11 +8,11 @@ This is a collection of resources related to cross modal retrieval&mamba.
 
 - [Papers](#Papers)
   - [1 Survey](#Surveys)
-  - [2 Cross modal retrieval](#Cross modal retrieval)
+  - [2 Cross modal retrieval](#retrieval)
      - [2.1 2021](#2021)
      - [2.2 2022](#2022)
      - [2.3 2023](#2023)
-- [Codes](#Code)
+- [Codes](#Codes)
 
 # Papers
 
@@ -30,7 +30,7 @@ This is a collection of resources related to cross modal retrieval&mamba.
 
 <a name="Cross modal retrieval" />
 
-## 2 Cross modal retrieval
+## 2 retrieval
 
 
 <a name="2021" />
