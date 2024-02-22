@@ -19,6 +19,9 @@ This is a collection of resources related to cross modal retrieval&mamba.
 <a name="baselines" />
 
 # baselines
+|title|publication&date|summary|成本|recommendation|
+|---|---|---|---|---|
+||||||
 
 
 
@@ -30,18 +33,15 @@ This is a collection of resources related to cross modal retrieval&mamba.
 
 ## 1 Surveys
 
-1. example:**Flow network based generative models for non-iterative diverse candidate generation.** *Bengio, E., Jain, M., Korablyov, M., Precup, D., & Bengio, Y.* 2021 [paper] [done] (https://proceedings.neurips.cc/paper/2021/hash/e614f646836aaed9f89ce58e837e2310-Abstract.html)
-2. 
-
-
-
-
-
+1. **Image-text Retrieval: A Survey on Recent Research and Development.** *Min Cao, Shiping Li, Juntao Li, Liqiang Nie, Min Zhang.* 2022 [survey] (https://arxiv.org/abs/2203.14713)
+2. **Cross-Modal Retrieval: A Systematic Review of Methods and Future Directions.** *Fengling Li, Lei Zhu, Tianshi Wang, Jingjing Li, Zheng Zhang, Heng Tao Shen* 2023 [survey] (https://arxiv.org/abs/2308.14263)
+3. **The State of the Art for Cross-Modal Retrieval: A Survey.** *Kun Zhou; Fadratul Hafinaz Hassan; Gan Keng Hoon* 2023 [survey]  (https://ieeexplore.ieee.org/abstract/document/10336787)
+4. **Multimodal Learning with Transformers: A Survey.** *Peng Xu; Xiatian Zhu; David A.* 2023 [survey] (https://ieeexplore.ieee.org/document/10123038)
+5. 
 
 <a name="retrieval" />
 
 ## 2 retrieval
-
 
 <a name="2021" />
 
