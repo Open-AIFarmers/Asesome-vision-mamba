@@ -70,7 +70,8 @@ This is a collection of resources related to cross modal retrieval&mamba.
 
 ### 2.4 2024
 
-1. 
+1. **Augment the Pairs: Semantics-Preserving Image-Caption Pair Augmentation for Grounding-Based Vision and Language Models.** *Jingru Yi, Burak Uzkent, Oana Ignat, Zili Li, Amanmeet Garg, Xiang Yu, Linda Liu* 2024 [paper] (https://arxiv.org/abs/2311.02536)
+2. **SeTformer is What You Need for Vision and Language.** *Pourya Shamsolmoali, Masoumeh Zareapoor, Eric Granger, Michael Felsberg* 2024 [paper] (https://arxiv.org/abs/2401.03540)
 
 <a name="Codes" />
 
