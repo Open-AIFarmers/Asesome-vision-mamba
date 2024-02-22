@@ -77,6 +77,8 @@ This is a collection of resources related to cross modal retrieval&mamba.
 
 ## 主流多模态检索技术路线
 ![ca1d9625fb9da876a5353df9ef186cb](https://github.com/lpf992/vision-mamba/assets/151422800/82136247-9e56-4218-aaa4-d978a3356a84)
+- 单流
+- 双流*
 
 <a name="Codes" />
 
