@@ -4,6 +4,8 @@
   |[Augment the Pairs: Semantics-Preserving Image-Caption Pair Augmentation for Grounding-Based Vision and Language Models](https://arxiv.org/abs/2311.02536)|WACV2024|数据增强,侧重提高数据集质量，还未发表但已接受，可做借鉴||
   |[SeTformer is What You Need for Vision and Language](https://arxiv.org/abs/2401.03540)|AAAI2024|新型Transformer，通过将点积自注意力（DPSA）完全替换为自我最优传输（SeT）来提高性能和计算效率,||
   |[VL-GPT: A Generative Pre-trained Transformer for Vision and Language Understanding and Generation](https://arxiv.org/abs/2312.09251)|arXiv2023-12-14|不能做baseline，侧重于生成模型，但可以参考，创新点较多，如：图像tokenizer-detokenizer框架、连续视觉嵌入标记（IMG）、提出了更好的预训练方法、还能够理解和生成图像等；感觉和单流模式更相似，需要vision and language transformer model||
+  |[AGREE: Aligning Cross-Modal Entities for Image-Text Retrieval Upon Vision-Language Pre-trained Models](https://dl.acm.org/doi/abs/10.1145/3539597.3570481)|WSDM2023|基于vlp模型image-text检索任务的不同模态对齐|+|
+  |[Unifying Two-Stream Encoders with Transformers for Cross-Modal Retrieval](https://dl.acm.org/doi/abs/10.1145/3581783.3612427)|MM2023|双流，视觉transformer+语言transformer+对齐|+|
   |[Image as a Foreign Language: BEIT Pretraining for All Vision and Vision-Language Tasks](https://arxiv.org/abs/2208.10442)|CVPR2023|将ViT和Bert结合，自监督学习||
   |[MAMO: Masked Multimodal Modeling for Fine-Grained Vision-Language Representation Learning](https://arxiv.org/abs/2210.04183)|SIGIR2023|联合掩码多模态建模方法||
   |[Masked Vision and Language Modeling for Multi-modal Representation Learning](https://arxiv.org/abs/2208.02131)|ICLR2023|联合掩蔽视觉和语言建模,而不是独立开发掩蔽语言模型（MLM）和掩蔽图像建模（MIM）||
