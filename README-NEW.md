@@ -19,7 +19,7 @@ This is a collection of resources related to cross modal retrieval&mamba.
 <a name="baselines" />
 
 # baselines
-|title|publication&date|summary|成本|recommendation|
+|title|publication&date|summary|cost|recommendation|
 |---|---|---|---|---|
 ||||||
 
