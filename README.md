@@ -4,6 +4,8 @@
   |[Augment the Pairs: Semantics-Preserving Image-Caption Pair Augmentation for Grounding-Based Vision and Language Models](https://arxiv.org/abs/2311.02536)|WACV2024|数据增强,侧重提高数据集质量，还未发表但已接受，可做借鉴||
   |[SeTformer is What You Need for Vision and Language](https://arxiv.org/abs/2401.03540)|AAAI2024|新型Transformer，通过将点积自注意力（DPSA）完全替换为自我最优传输（SeT）来提高性能和计算效率,||
   |[VL-GPT: A Generative Pre-trained Transformer for Vision and Language Understanding and Generation](https://arxiv.org/abs/2312.09251)|arXiv2023-12-14|不能做baseline，侧重于生成模型，但可以参考，创新点较多，如：图像tokenizer-detokenizer框架、连续视觉嵌入标记（IMG）、提出了更好的预训练方法、还能够理解和生成图像等；感觉和单流模式更相似，需要vision and language transformer model||
+  |[Prototype-based Aleatoric Uncertainty Quantification for Cross-modal Retrieval](https://proceedings.neurips.cc/paper_files/paper/2023/hash/4d893f766ab60e5337659b9e71883af4-Abstract-Conference.html)|NeurlPS2023|量化由固有数据模糊性引起的不确定性来提供值得信赖的预测||
+  |[BCAN: Bidirectional Correct Attention Network for Cross-Modal Retrieval](https://ieeexplore.ieee.org/abstract/document/10138903)|IEEE Transactions on Neural Networks and Learning Systems2023|注意力机制||
   |[Cross-Modal Semantic Enhanced Interaction for Image-Sentence Retrieval](https://openaccess.thecvf.com/content/WACV2023/html/Ge_Cross-Modal_Semantic_Enhanced_Interaction_for_Image-Sentence_Retrieval_WACV_2023_paper.html)|WACV2023||+|
   |[AGREE: Aligning Cross-Modal Entities for Image-Text Retrieval Upon Vision-Language Pre-trained Models](https://dl.acm.org/doi/abs/10.1145/3539597.3570481)|WSDM2023|基于vlp模型image-text检索任务的不同模态对齐|+|
   |[Unifying Two-Stream Encoders with Transformers for Cross-Modal Retrieval](https://dl.acm.org/doi/abs/10.1145/3581783.3612427)|MM2023|双流，视觉transformer+语言transformer+对齐|+|
