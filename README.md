@@ -12,7 +12,7 @@
   |[COTS: Collaborative Two-Stream Vision-Language Pre-Training Model for Cross-Modal Retrieval](https://openaccess.thecvf.com/content/CVPR2022/html/Lu_COTS_Collaborative_Two-Stream_Vision-Language_Pre-Training_Model_for_Cross-Modal_Retrieval_CVPR_2022_paper.html)|CVPR2022|双流VLP模型|+|
   |[TCL: Vision-Language Pre-Training with Triple Contrastive Learning](https://arxiv.org/abs/2202.10401)|CVPR2022|基于ALBEF（通过在多模态特征融合前对齐不同模态之间的表示），ALBEF的对齐是image-text pair之间的全局对齐，没有考虑到模态内部的对齐，以及global-local的细粒度对齐。TCL把ALBEF中的一种对齐方式扩展到了三种对齐方式。||
   |[An Empirical Study of Training End-to-End Vision-and-Language Transformers](https://arxiv.org/abs/2111.02387)|CVPR2022|训练端到端视觉和语言变压器的实证研究，很有意思的一篇文章，测试很多不同部分用不同方法的模型性能，虽然是2022年，但CVPR值得一看||
-  |[Recall@k Surrogate Loss with Large Batches and Similarity Mixup](https://arxiv.org/abs/2108.11179)|CVPR2022|探索新的损失函数、批量大小、正则化方法提高检索的效果||
+  |[Recall@k Surrogate Loss with Large Batches and Similarity Mixup](https://arxiv.org/abs/2108.11179)|CVPR2022|探索新的损失函数、批量大小、正则化方法之间的相互作用以提高检索的效果||
   |[VLDeformer: Vision–Language Decomposed Transformer for fast cross-modal retrieval](https://www.sciencedirect.com/science/article/pii/S0950705122006608)|Knowledge-Based Systems2022|期刊；提升VLtransformer效率，感觉质量高的话可以作为baseline之一|+|
   |[BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086)|ICML2022|boostrapping caption用于“提纯”带噪声web datasets，可参考噪声处理方法||
   |[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/abs/2102.03334)|ICML2021|a minimal VLP model,体量小速度快，但精度一般，可做baseline|+|
