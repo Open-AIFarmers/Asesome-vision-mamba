@@ -12,7 +12,7 @@
   |[Image as a Foreign Language: BEIT Pretraining for All Vision and Vision-Language Tasks](https://arxiv.org/abs/2208.10442)|CVPR2023|将ViT和Bert结合，自监督学习|baseline(待定)|
   |[MAMO: Masked Multimodal Modeling for Fine-Grained Vision-Language Representation Learning](https://arxiv.org/abs/2210.04183)|SIGIR2023|联合掩码多模态建模方法|可参考|
   |[Masked Vision and Language Modeling for Multi-modal Representation Learning](https://arxiv.org/abs/2208.02131)|ICLR2023|联合掩蔽视觉和语言建模,而不是独立开发掩蔽语言模型（MLM）和掩蔽图像建模（MIM）|预训练任务可参考|
-  |[Universal Vision-Language Dense Retrieval: Learning A Unified Representation Space for Multi-Modal Retrieval ](https://openreview.net/forum?id=PQOlkgsBsik)|ICLR2023|多模态检索统一模型，输入查询，输出多模态数据，与cross modal有区别;pretrained model：vinvl，clip；|待定|
+  |[Universal Vision-Language Dense Retrieval: Learning A Unified Representation Space for Multi-Modal Retrieval ](https://openreview.net/forum?id=PQOlkgsBsik)|ICLR2023|多模态检索统一模型，输入查询，输出多模态数据，与cross modal有区别;pretrained model：vinvl，clip；|-|
   |[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597)|ACL2023|1、轻量架构QFormer（querying transformer），2、二阶段预训练范式，与LLM模型链接起来；构建图像和文本之间的对齐former，在检索任务上精度较高|baseline|
   |[COTS: Collaborative Two-Stream Vision-Language Pre-Training Model for Cross-Modal Retrieval](https://openaccess.thecvf.com/content/CVPR2022/html/Lu_COTS_Collaborative_Two-Stream_Vision-Language_Pre-Training_Model_for_Cross-Modal_Retrieval_CVPR_2022_paper.html)|CVPR2022|双流VLP模型|可参考，无代码|
   |[TCL: Vision-Language Pre-Training with Triple Contrastive Learning](https://arxiv.org/abs/2202.10401)|CVPR2022|基于ALBEF（通过在多模态特征融合前对齐不同模态之间的表示），ALBEF的对齐是image-text pair之间的全局对齐，没有考虑到模态内部的对齐，以及global-local的细粒度对齐。TCL把ALBEF中的一种对齐方式扩展到了三种对齐方式。|待定|
