@@ -28,7 +28,7 @@ This is a collection of resources related to cross modal retrieval&mamba.
 |[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597)|ACL2023|1、轻量架构QFormer（querying transformer），2、二阶段预训练范式，与LLM模型链接起来；构建图像和文本之间的对齐former，在检索任务上精度较高||baseline|
 |[COTS: Collaborative Two-Stream Vision-Language Pre-Training Model for Cross-Modal Retrieval](https://openaccess.thecvf.com/content/CVPR2022/html/Lu_COTS_Collaborative_Two-Stream_Vision-Language_Pre-Training_Model_for_Cross-Modal_Retrieval_CVPR_2022_paper.html)|CVPR2022|双流VLP模型||可参考，无代码|
 |[An Empirical Study of Training End-to-End Vision-and-Language Transformers](https://arxiv.org/abs/2111.02387)|CVPR2022|训练端到端视觉和语言变压器的实证研究，很有意思的一篇文章，测试很多不同部分用不同方法的模型性能，虽然是2022年，但CVPR值得一看||baseline(复现)|
-|[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/abs/2102.03334)|ICML2021|a minimal VLP model,体量小速度快，但精度一般，可做baseline||baseline(复现)|
+|[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/abs/2102.03334)|ICML2021|a minimal VLP model,体量小速度快，但精度一般，可做baseline|pre-train ViLT-B/32 for 100K or 200K steps on 64 NVIDIA V100 GPUs with a batch size of 4,096|baseline(复现)|
 |[Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision](https://arxiv.org/abs/2102.05918)|ICML2021|ALIGN,十亿噪声数据集||baseline(不复现)|
 |[Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651)|ICML2021|ALBEF,对比损失，动量蒸馏，混合流模型||baseline|
 |[CLIP:Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)|openai2021|||baseline|
