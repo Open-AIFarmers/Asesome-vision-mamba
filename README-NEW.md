@@ -71,6 +71,7 @@ This is a collection of resources related to cross modal retrieval&mamba.
 6. **Student Can Also be a Good Teacher: Extracting Knowledge from Vision-and-Language Model for Cross-Modal Retrieval** *Jun Rao,Tao Qian,Shuhan Qi,Yulin Wu,Qing Liao,Xuan Wang* 2021 [paper] (https://dl.acm.org/doi/10.1145/3459637.3482194)
 7. **Image Retrieval on Real-Life Images With Pre-Trained Vision-and-Language Models** *Zheyuan Liu, Cristian Rodriguez-Opazo, Damien Teney, Stephen Gould* 2021 [paper] [可参考] (https://openaccess.thecvf.com//content/ICCV2021/html/Liu_Image_Retrieval_on_Real-Life_Images_With_Pre-Trained_Vision-and-Language_Models_ICCV_2021_paper.html)
 8. **Learning Homogeneous and Heterogeneous Co-Occurrences for Unsupervised Cross-Modal Retrieval** ** 2021 [paper] [数据集有借鉴意义] (https://ieeexplore.ieee.org/document/9428240)
+9. 
   
 <a name="2022" />
 
@@ -89,6 +90,7 @@ This is a collection of resources related to cross modal retrieval&mamba.
 11. **Bit-aware Semantic Transformer Hashing for Multi-modal Retrieval** *Wentao Tan,Lei Zhu,Weili Guan,Jingjing Li,Zhiyong Cheng* 2022 [paper](https://dl.acm.org/doi/10.1145/3477495.3531947)
 12. **TVT: Three-Way Vision Transformer through Multi-Modal Hypersphere Learning for Zero-Shot Sketch-Based Image Retrieval** *Jialin Tian,Xing Xu,Fumin Shen,Yang Yang,Heng Tao Shen* 2022 [paper] (https://ojs.aaai.org/index.php/AAAI/article/view/20136)
 13. **Vision Transformer Hashing for Image Retrieval** *Shiv Ram Dubey, Satish Kumar Singh, Wei-Ta Chu* [paper] (https://ieeexplore.ieee.org/document/9859900)
+14. 
 
 <a name="2023" />
 
@@ -97,7 +99,7 @@ This is a collection of resources related to cross modal retrieval&mamba.
 1. **Unifying Two-Stream Encoders with Transformers for Cross-Modal Retrieval** *Yi Bin, Haoxuan Li, Yahui Xu, Xing Xu, Yang Yang, Heng Tao Shen* 2023 [paper] [baseline] (https://dl.acm.org/doi/abs/10.1145/3581783.3612427)
 2. **Image as a Foreign Language: BEIT Pretraining for All Vision and Vision-Language Tasks** *Wenhui Wang, Hangbo Bao, Li Dong, Johan Bjorck, Zhiliang Peng, Qiang Liu, Kriti Aggarwal, Owais Khan Mohammed, Saksham Singhal, Subhojit Som, Furu Wei* 2023 [paper] [baseline] (https://arxiv.org/abs/2208.10442)
 3. **MAMO: Masked Multimodal Modeling for Fine-Grained Vision-Language Representation Learning** *Zijia Zhao, Longteng Guo, Xingjian He, Shuai Shao, Zehuan Yuan, Jing Liu* 2023 [paper] [可参考] (https://arxiv.org/abs/2210.04183)
-4. **Masked Vision and Language Modeling for Multi-modal Representation Learning** *Gukyeong Kwon, Zhaowei Cai, Avinash Ravichandran, Erhan Bas, Rahul Bhotika, Stefano Soatto* 2023 [paper] [可参考](https://arxiv.org/abs/2208.02131)
+4. **Masked Vision and Language Modeling for Multi-modal Representation Learning** *Gukyeong Kwon, Zhaowei Cai, Avinash Ravichandran, Erhan Bas, Rahul Bhotika, Stefano Soatto* 2023 [paper] [可参考] (https://arxiv.org/abs/2208.02131)
 5. **BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models** *Junnan Li, Dongxu Li, Silvio Savarese, Steven Hoi* 2023 [paper] [baseline] (https://arxiv.org/abs/2301.12597)
 6. 
 
@@ -110,6 +112,7 @@ This is a collection of resources related to cross modal retrieval&mamba.
 
 1. **Augment the Pairs: Semantics-Preserving Image-Caption Pair Augmentation for Grounding-Based Vision and Language Models.** *Jingru Yi, Burak Uzkent, Oana Ignat, Zili Li, Amanmeet Garg, Xiang Yu, Linda Liu* 2024 [paper] (https://arxiv.org/abs/2311.02536)
 2. **SeTformer is What You Need for Vision and Language.** *Pourya Shamsolmoali, Masoumeh Zareapoor, Eric Granger, Michael Felsberg* 2024 [paper] [vision and language transformer] (https://arxiv.org/abs/2401.03540)
+3. 
 
 
 <a name="model" />
