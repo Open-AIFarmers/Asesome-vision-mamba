@@ -63,20 +63,46 @@ This is a collection of resources related to cross modal retrieval&mamba.
 
 ### 2.1 2021
 
-1. 
-
+1. **ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision** *Wonjae Kim, Bokyung Son, Ildoo Kim* 2021 [paper] [baseline(复现)] (https://arxiv.org/abs/2102.03334)
+2. **Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision** *Chao Jia, Yinfei Yang, Ye Xia, Yi-Ting Chen, Zarana Parekh, Hieu Pham, Quoc V. Le, Yunhsuan Sung, Zhen Li, Tom Duerig* 2021 [paper] [baseline(不复现)] (https://arxiv.org/abs/2102.05918)
+3. **Align before Fuse: Vision and Language Representation Learning with Momentum Distillation** ** 2021 [paper] [baseline] (https://arxiv.org/abs/2107.07651)
+4. **CLIP:Learning Transferable Visual Models From Natural Language Supervision** *Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever* [paper] [baseline] (https://arxiv.org/abs/2103.00020)|openai2021||baseline|
+5. **VinVL: Revisiting Visual Representations in Vision-Language Models** *Pengchuan Zhang, Xiujun Li, Xiaowei Hu, Jianwei Yang, Lei Zhang, Lijuan Wang, Yejin Choi, Jianfeng Gao* 2021 [paper] [baseline] (https://arxiv.org/abs/2101.00529)
+6. **Student Can Also be a Good Teacher: Extracting Knowledge from Vision-and-Language Model for Cross-Modal Retrieval** *Jun Rao,Tao Qian,Shuhan Qi,Yulin Wu,Qing Liao,Xuan Wang* 2021 [paper] (https://dl.acm.org/doi/10.1145/3459637.3482194)
+7. **Image Retrieval on Real-Life Images With Pre-Trained Vision-and-Language Models** *Zheyuan Liu, Cristian Rodriguez-Opazo, Damien Teney, Stephen Gould* 2021 [paper] [可参考] (https://openaccess.thecvf.com//content/ICCV2021/html/Liu_Image_Retrieval_on_Real-Life_Images_With_Pre-Trained_Vision-and-Language_Models_ICCV_2021_paper.html)
+8. **Learning Homogeneous and Heterogeneous Co-Occurrences for Unsupervised Cross-Modal Retrieval** ** 2021 [paper] [数据集有借鉴意义] (https://ieeexplore.ieee.org/document/9428240)
+  
 <a name="2022" />
 
 ### 2.2 2022
 
-1. 
-
+1. **COTS: Collaborative Two-Stream Vision-Language Pre-Training Model for Cross-Modal Retrieval** *Haoyu Lu, Nanyi Fei, Yuqi Huo, Yizhao Gao, Zhiwu Lu, Ji-Rong Wen* 2022 [paper] [可参考，无代码] (https://openaccess.thecvf.com/content/CVPR2022/html/Lu_COTS_Collaborative_Two-Stream_Vision-Language_Pre-Training_Model_for_Cross-Modal_Retrieval_CVPR_2022_paper.html)
+2. **TCL: Vision-Language Pre-Training with Triple Contrastive Learning** *Jinyu Yang, Jiali Duan, Son Tran, Yi Xu, Sampath Chanda, Liqun Chen, Belinda Zeng, Trishul Chilimbi, Junzhou Huang* 2022 [paper] [待定] (https://arxiv.org/abs/2202.10401)
+3. **An Empirical Study of Training End-to-End Vision-and-Language Transformers** *Zi-Yi Dou, Yichong Xu, Zhe Gan, Jianfeng Wang, Shuohang Wang, Lijuan Wang, Chenguang Zhu, Pengchuan Zhang, Lu Yuan, Nanyun Peng, Zicheng Liu, Michael Zeng* 2022 [paper] [baseline](https://arxiv.org/abs/2111.02387)
+4. **BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation** *Junnan Li, Dongxu Li, Caiming Xiong, Steven Hoi* 2022 [paper] [待定] (https://arxiv.org/abs/2201.12086)
+5. **Fine-Grained Cross-Modal Retrieval with Triple-Streamed Memory Fusion Transformer Encoder** ** 2022 [paper] (https://ieeexplore.ieee.org/document/9859738)
+6. **FaD-VLP: Fashion Vision-and-Language Pre-training towards Unified Retrieval and Captioning** *Suvir Mirchandani, Licheng Yu, Mengjiao Wang, Animesh Sinha, Wenwen Jiang, Tao Xiang, Ning Zhang* 2022 [paper] (https://aclanthology.org/2022.emnlp-main.716/)
+7. **Contrastive Label Correlation Enhanced Unified Hashing Encoder for Cross-modal Retrieval** *Hongfa Wu,Lisai Zhang,Qingcai Chen,Yimeng Deng,Joanna Siebert,Yunpeng Han,Zhonghua Li,Dejiang Kong,Zhao Cao* 2022 [paper] (https://dl.acm.org/doi/10.1145/3511808.3557265)
+8. **Joint Feature Synthesis and Embedding: Adversarial Cross-Modal Retrieval Revisited** *Xing Xu, Kaiyi Lin, Yang Yang, Alan Hanjalic, Heng Tao Shen* 2022 [paper] (https://ieeexplore.ieee.org/document/9296975)
+9. **Universal Weighting Metric Learning for Cross-Modal Retrieval** *Jiwei Wei, Xing Xu, Yang Yang, Yanli Ji, Zheng Wang, Heng Tao Shen* 2022 [paper] (https://ieeexplore.ieee.org/document/9454290)
+10. **Token Embeddings Alignment for Cross-Modal Retrieval** *Chen-Wei Xie,Jianmin Wu,Yun Zheng,Pan Pan,Xian-Sheng Hua* 2022 [paper](https://dl.acm.org/doi/10.1145/3503161.3548107)
+11. **Bit-aware Semantic Transformer Hashing for Multi-modal Retrieval** *Wentao Tan,Lei Zhu,Weili Guan,Jingjing Li,Zhiyong Cheng* 2022 [paper](https://dl.acm.org/doi/10.1145/3477495.3531947)
+12. **TVT: Three-Way Vision Transformer through Multi-Modal Hypersphere Learning for Zero-Shot Sketch-Based Image Retrieval** *Jialin Tian,Xing Xu,Fumin Shen,Yang Yang,Heng Tao Shen* 2022 [paper] (https://ojs.aaai.org/index.php/AAAI/article/view/20136)
+13. **Vision Transformer Hashing for Image Retrieval** *Shiv Ram Dubey, Satish Kumar Singh, Wei-Ta Chu* [paper] (https://ieeexplore.ieee.org/document/9859900)
 
 <a name="2023" />
 
 ### 2.3 2023
 
-1. 
+1. **Unifying Two-Stream Encoders with Transformers for Cross-Modal Retrieval** *Yi Bin, Haoxuan Li, Yahui Xu, Xing Xu, Yang Yang, Heng Tao Shen* 2023 [paper] [baseline] (https://dl.acm.org/doi/abs/10.1145/3581783.3612427)
+2. **Image as a Foreign Language: BEIT Pretraining for All Vision and Vision-Language Tasks** *Wenhui Wang, Hangbo Bao, Li Dong, Johan Bjorck, Zhiliang Peng, Qiang Liu, Kriti Aggarwal, Owais Khan Mohammed, Saksham Singhal, Subhojit Som, Furu Wei* 2023 [paper] [baseline] (https://arxiv.org/abs/2208.10442)
+3. **MAMO: Masked Multimodal Modeling for Fine-Grained Vision-Language Representation Learning** *Zijia Zhao, Longteng Guo, Xingjian He, Shuai Shao, Zehuan Yuan, Jing Liu* 2023 [paper] [可参考] (https://arxiv.org/abs/2210.04183)
+4. **Masked Vision and Language Modeling for Multi-modal Representation Learning** *Gukyeong Kwon, Zhaowei Cai, Avinash Ravichandran, Erhan Bas, Rahul Bhotika, Stefano Soatto* 2023 [paper] [可参考](https://arxiv.org/abs/2208.02131)
+5. **BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models** *Junnan Li, Dongxu Li, Silvio Savarese, Steven Hoi* 2023 [paper] [baseline] (https://arxiv.org/abs/2301.12597)
+6. 
+
+
+
 
 <a name="2024" />
 
