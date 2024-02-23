@@ -1,30 +1,30 @@
 # Paper List
   | Title | Publication&date | summary | recommend |
   | --- | --- | --- | --- |
-  |[Augment the Pairs: Semantics-Preserving Image-Caption Pair Augmentation for Grounding-Based Vision and Language Models](https://arxiv.org/abs/2311.02536)|WACV2024|数据增强,侧重提高数据集质量，还未发表但已接受，可做借鉴||
-  |[SeTformer is What You Need for Vision and Language](https://arxiv.org/abs/2401.03540)|AAAI2024|新型Transformer，通过将点积自注意力（DPSA）完全替换为自我最优传输（SeT）来提高性能和计算效率,||
-  |[VL-GPT: A Generative Pre-trained Transformer for Vision and Language Understanding and Generation](https://arxiv.org/abs/2312.09251)|arXiv2023-12-14|不能做baseline，侧重于生成模型，但可以参考，创新点较多，如：图像tokenizer-detokenizer框架、连续视觉嵌入标记（IMG）、提出了更好的预训练方法、还能够理解和生成图像等；感觉和单流模式更相似，需要vision and language transformer model||
-  |[Prototype-based Aleatoric Uncertainty Quantification for Cross-modal Retrieval](https://proceedings.neurips.cc/paper_files/paper/2023/hash/4d893f766ab60e5337659b9e71883af4-Abstract-Conference.html)|NeurlPS2023|量化由固有数据模糊性引起的不确定性来提供值得信赖的预测||
-  |[BCAN: Bidirectional Correct Attention Network for Cross-Modal Retrieval](https://ieeexplore.ieee.org/abstract/document/10138903)|IEEE Transactions on Neural Networks and Learning Systems2023|注意力机制||
-  |[Cross-Modal Semantic Enhanced Interaction for Image-Sentence Retrieval](https://openaccess.thecvf.com/content/WACV2023/html/Ge_Cross-Modal_Semantic_Enhanced_Interaction_for_Image-Sentence_Retrieval_WACV_2023_paper.html)|WACV2023||+|
-  |[AGREE: Aligning Cross-Modal Entities for Image-Text Retrieval Upon Vision-Language Pre-trained Models](https://dl.acm.org/doi/abs/10.1145/3539597.3570481)|WSDM2023|基于vlp模型image-text检索任务的不同模态对齐|+|
-  |[Unifying Two-Stream Encoders with Transformers for Cross-Modal Retrieval](https://dl.acm.org/doi/abs/10.1145/3581783.3612427)|MM2023|双流，视觉transformer+语言transformer+对齐|+|
-  |[Image as a Foreign Language: BEIT Pretraining for All Vision and Vision-Language Tasks](https://arxiv.org/abs/2208.10442)|CVPR2023|将ViT和Bert结合，自监督学习||
-  |[MAMO: Masked Multimodal Modeling for Fine-Grained Vision-Language Representation Learning](https://arxiv.org/abs/2210.04183)|SIGIR2023|联合掩码多模态建模方法||
-  |[Masked Vision and Language Modeling for Multi-modal Representation Learning](https://arxiv.org/abs/2208.02131)|ICLR2023|联合掩蔽视觉和语言建模,而不是独立开发掩蔽语言模型（MLM）和掩蔽图像建模（MIM）||
-  |[Universal Vision-Language Dense Retrieval: Learning A Unified Representation Space for Multi-Modal Retrieval ](https://openreview.net/forum?id=PQOlkgsBsik)|ICLR2023|多模态检索统一模型，输入查询，输出多模态数据，与cross modal有区别;pretrained model：vinvl，clip；||
-  |[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597)|ACL2023|1、轻量架构QFormer（querying transformer），2、二阶段预训练范式，与LLM模型链接起来||
-  |[COTS: Collaborative Two-Stream Vision-Language Pre-Training Model for Cross-Modal Retrieval](https://openaccess.thecvf.com/content/CVPR2022/html/Lu_COTS_Collaborative_Two-Stream_Vision-Language_Pre-Training_Model_for_Cross-Modal_Retrieval_CVPR_2022_paper.html)|CVPR2022|双流VLP模型|+|
-  |[TCL: Vision-Language Pre-Training with Triple Contrastive Learning](https://arxiv.org/abs/2202.10401)|CVPR2022|基于ALBEF（通过在多模态特征融合前对齐不同模态之间的表示），ALBEF的对齐是image-text pair之间的全局对齐，没有考虑到模态内部的对齐，以及global-local的细粒度对齐。TCL把ALBEF中的一种对齐方式扩展到了三种对齐方式。||
-  |[An Empirical Study of Training End-to-End Vision-and-Language Transformers](https://arxiv.org/abs/2111.02387)|CVPR2022|训练端到端视觉和语言变压器的实证研究，很有意思的一篇文章，测试很多不同部分用不同方法的模型性能，虽然是2022年，但CVPR值得一看||
-  |[Recall@k Surrogate Loss with Large Batches and Similarity Mixup](https://arxiv.org/abs/2108.11179)|CVPR2022|探索新的损失函数、批量大小、正则化方法之间的相互作用以提高检索的效果||
-  |[VLDeformer: Vision–Language Decomposed Transformer for fast cross-modal retrieval](https://www.sciencedirect.com/science/article/pii/S0950705122006608)|Knowledge-Based Systems2022|期刊；提升VLtransformer效率，感觉质量高的话可以作为baseline之一|+|
-  |[BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086)|ICML2022|boostrapping caption用于“提纯”带噪声web datasets，可参考噪声处理方法||
-  |[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/abs/2102.03334)|ICML2021|a minimal VLP model,体量小速度快，但精度一般，可做baseline|+|
-  |[Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision](https://arxiv.org/abs/2102.05918)|ICML2021|ALIGN,十亿噪声数据集，精度高可做benchmark|+|
-  |[Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651)|ICML2021|ALBEF,对比损失，动量蒸馏，混合流模型，精度高可做benchmark|+|
-  |[CLIP:Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)|openai2021||+|
-  |[VinVL: Revisiting Visual Representations in Vision-Language Models](https://arxiv.org/abs/2101.00529)|CVPR2021||+|
+  |[Augment the Pairs: Semantics-Preserving Image-Caption Pair Augmentation for Grounding-Based Vision and Language Models](https://arxiv.org/abs/2311.02536)|WACV2024|数据增强,侧重提高数据集质量，还未发表但已接受，可做借鉴|可参考，不复现|
+  |[SeTformer is What You Need for Vision and Language](https://arxiv.org/abs/2401.03540)|AAAI2024|新型Transformer，通过将点积自注意力（DPSA）完全替换为自我最优传输（SeT）来提高性能和计算效率,|可参考，可用来对比|
+  |[VL-GPT: A Generative Pre-trained Transformer for Vision and Language Understanding and Generation](https://arxiv.org/abs/2312.09251)|arXiv2023-12-14|不能做baseline，侧重于生成模型，但可以参考，创新点较多，如：图像tokenizer-detokenizer框架、连续视觉嵌入标记（IMG）、提出了更好的预训练方法、还能够理解和生成图像等；感觉和单流模式更相似，需要vision and language transformer model|-|
+  |[Prototype-based Aleatoric Uncertainty Quantification for Cross-modal Retrieval](https://proceedings.neurips.cc/paper_files/paper/2023/hash/4d893f766ab60e5337659b9e71883af4-Abstract-Conference.html)|NeurlPS2023|量化由固有数据模糊性引起的不确定性来提供值得信赖的预测|-|
+  |[BCAN: Bidirectional Correct Attention Network for Cross-Modal Retrieval](https://ieeexplore.ieee.org/abstract/document/10138903)|IEEE Transactions on Neural Networks and Learning Systems2023|注意力机制|-|
+  |[Cross-Modal Semantic Enhanced Interaction for Image-Sentence Retrieval](https://openaccess.thecvf.com/content/WACV2023/html/Ge_Cross-Modal_Semantic_Enhanced_Interaction_for_Image-Sentence_Retrieval_WACV_2023_paper.html)|WACV2023||-|
+  |[AGREE: Aligning Cross-Modal Entities for Image-Text Retrieval Upon Vision-Language Pre-trained Models](https://dl.acm.org/doi/abs/10.1145/3539597.3570481)|WSDM2023|基于vlp模型image-text检索任务的不同模态对齐|-|
+  |[Unifying Two-Stream Encoders with Transformers for Cross-Modal Retrieval](https://dl.acm.org/doi/abs/10.1145/3581783.3612427)|MM2023|双流，视觉transformer+语言transformer+对齐|baseline(复现)|
+  |[Image as a Foreign Language: BEIT Pretraining for All Vision and Vision-Language Tasks](https://arxiv.org/abs/2208.10442)|CVPR2023|将ViT和Bert结合，自监督学习|baseline(待定)|
+  |[MAMO: Masked Multimodal Modeling for Fine-Grained Vision-Language Representation Learning](https://arxiv.org/abs/2210.04183)|SIGIR2023|联合掩码多模态建模方法|可参考|
+  |[Masked Vision and Language Modeling for Multi-modal Representation Learning](https://arxiv.org/abs/2208.02131)|ICLR2023|联合掩蔽视觉和语言建模,而不是独立开发掩蔽语言模型（MLM）和掩蔽图像建模（MIM）|预训练任务可参考|
+  |[Universal Vision-Language Dense Retrieval: Learning A Unified Representation Space for Multi-Modal Retrieval ](https://openreview.net/forum?id=PQOlkgsBsik)|ICLR2023|多模态检索统一模型，输入查询，输出多模态数据，与cross modal有区别;pretrained model：vinvl，clip；|待定|
+  |[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597)|ACL2023|1、轻量架构QFormer（querying transformer），2、二阶段预训练范式，与LLM模型链接起来|baseline(待定)|
+  |[COTS: Collaborative Two-Stream Vision-Language Pre-Training Model for Cross-Modal Retrieval](https://openaccess.thecvf.com/content/CVPR2022/html/Lu_COTS_Collaborative_Two-Stream_Vision-Language_Pre-Training_Model_for_Cross-Modal_Retrieval_CVPR_2022_paper.html)|CVPR2022|双流VLP模型|可参考，无代码|
+  |[TCL: Vision-Language Pre-Training with Triple Contrastive Learning](https://arxiv.org/abs/2202.10401)|CVPR2022|基于ALBEF（通过在多模态特征融合前对齐不同模态之间的表示），ALBEF的对齐是image-text pair之间的全局对齐，没有考虑到模态内部的对齐，以及global-local的细粒度对齐。TCL把ALBEF中的一种对齐方式扩展到了三种对齐方式。|待定|
+  |[An Empirical Study of Training End-to-End Vision-and-Language Transformers](https://arxiv.org/abs/2111.02387)|CVPR2022|训练端到端视觉和语言变压器的实证研究，很有意思的一篇文章，测试很多不同部分用不同方法的模型性能，虽然是2022年，但CVPR值得一看|baseline(复现)|
+  |[Recall@k Surrogate Loss with Large Batches and Similarity Mixup](https://arxiv.org/abs/2108.11179)|CVPR2022|探索新的损失函数、批量大小、正则化方法之间的相互作用以提高检索的效果|-|
+  |[VLDeformer: Vision–Language Decomposed Transformer for fast cross-modal retrieval](https://www.sciencedirect.com/science/article/pii/S0950705122006608)|Knowledge-Based Systems2022|期刊；提升VLtransformer效率，感觉质量高的话可以作为baseline之一。|-|
+  |[BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086)|ICML2022|boostrapping caption用于“提纯”带噪声web datasets，可参考噪声处理方法|待定|
+  |[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/abs/2102.03334)|ICML2021|a minimal VLP model,体量小速度快，但精度一般，可做baseline|baseline(复现)|
+  |[Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision](https://arxiv.org/abs/2102.05918)|ICML2021|ALIGN,十亿噪声数据集|baseline(不复现)|
+  |[Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651)|ICML2021|ALBEF,对比损失，动量蒸馏，混合流模型|baseline|
+  |[CLIP:Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)|openai2021||baseline|
+  |[VinVL: Revisiting Visual Representations in Vision-Language Models](https://arxiv.org/abs/2101.00529)|CVPR2021||baseline|
   |||||
   |[Student Can Also be a Good Teacher: Extracting Knowledge from Vision-and-Language Model for Cross-Modal Retrieval](https://dl.acm.org/doi/10.1145/3459637.3482194)|CIKM2021|VLP based on transformer||
   |[Fine-Grained Cross-Modal Retrieval with Triple-Streamed Memory Fusion Transformer Encoder](https://ieeexplore.ieee.org/document/9859738)|ICME2022|这篇是为了解决transformer的效率和有效性之间的矛盾，数据集和思路有借鉴意义，如果出名可做baseline之一||
