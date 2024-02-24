@@ -15,6 +15,7 @@
   |[Keyword-Based Diverse Image Retrieval With Variational Multiple Instance Graph](https://ieeexplore.ieee.org/document/9764824)|tnnls2022|视觉编码器用的是查询引导变分自动编码器|想法可参考|
   |[Deep Multimodal Transfer Learning for Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9236655)|TNNLS2022|深度多模态迁移学习|baseline(待定，不是vlp)|
   |[FDDH: Fast Discriminative Discrete Hashing for Large-Scale Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9429177)|TNNLS2022|高效快速判别离散hash的方法|-|
+  |[Image-Text Embedding Learning via Visual and Textual Semantic Reasoning](https://ieeexplore.ieee.org/document/9706340)|tpami2022||||
   |[Enhancing Visual Grounding in Vision-Language Pre-training with Position-Guided Text Prompts](https://ieeexplore.ieee.org/document/10363674)|TPAMI2023|改进vlp，位置引导文本提示，增强vlp的视觉基础能力|baseline|
   |[Entity-Graph Enhanced Cross-Modal Pretraining for Instance-Level Product Retrieval](https://ieeexplore.ieee.org/document/10169110)|TPAMI2023|使用了vlp，但是写的是具体实例的搜索，什么酒、化妆品之类的|-|
   |[Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering](https://ieeexplore.ieee.org/document/10146482)|TPAMI2023|视觉问答|-|
