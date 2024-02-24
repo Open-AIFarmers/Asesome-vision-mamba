@@ -1,15 +1,15 @@
 # Paper List
   | Title | Publication&date | summary | recommend |
   | --- | --- | --- | --- |
-  |[Deep Semantic Multimodal Hashing Network for Scalable Image-Text and Video-Text Retrievals](https://ieeexplore.ieee.org/document/9109643)|tnnls2023|||
-  |[Query-Adaptive Late Fusion for Hierarchical Fine-Grained Video-Text Retrieval](https://ieeexplore.ieee.org/document/9927461)|tnnls2022|||
-  |[Relation-Aggregated Cross-Graph Correlation Learning for Fine-Grained Image–Text Retrieval](https://ieeexplore.ieee.org/document/9829420)|tnnls2022|||
-  |[Keyword-Based Diverse Image Retrieval With Variational Multiple Instance Graph](https://ieeexplore.ieee.org/document/9764824)|tnnls2022|||
-  |[Deep Multimodal Transfer Learning for Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9236655)|TNNLS2022|||
-  |[FDDH: Fast Discriminative Discrete Hashing for Large-Scale Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9429177)|TNNLS2022|||
-  |[Enhancing Visual Grounding in Vision-Language Pre-training with Position-Guided Text Prompts](https://ieeexplore.ieee.org/document/10363674)|TPAMI2023|改进vlp||
-  |[Entity-Graph Enhanced Cross-Modal Pretraining for Instance-Level Product Retrieval](https://ieeexplore.ieee.org/document/10169110)|TPAMI2023|使用了vlp||
-  |[Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering](https://ieeexplore.ieee.org/document/10146482)|TPAMI2023|视觉问答||
+  |[Deep Semantic Multimodal Hashing Network for Scalable Image-Text and Video-Text Retrievals](https://ieeexplore.ieee.org/document/9109643)|tnnls2023|hash算法|-|
+  |[Query-Adaptive Late Fusion for Hierarchical Fine-Grained Video-Text Retrieval](https://ieeexplore.ieee.org/document/9927461)|tnnls2022|文本-视频，查询自适应融合|-|
+  |[Relation-Aggregated Cross-Graph Correlation Learning for Fine-Grained Image–Text Retrieval](https://ieeexplore.ieee.org/document/9829420)|tnnls2022|有图像文本检索，但视觉用的是CNN，不知道可不可以做baseline||
+  |[Keyword-Based Diverse Image Retrieval With Variational Multiple Instance Graph](https://ieeexplore.ieee.org/document/9764824)|tnnls2022|视觉编码器用的是查询引导变分自动编码器|-|
+  |[Deep Multimodal Transfer Learning for Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9236655)|TNNLS2022|深度多模态迁移学习|-|
+  |[FDDH: Fast Discriminative Discrete Hashing for Large-Scale Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9429177)|TNNLS2022|高效快速判别离散hash的方法|-|
+  |[Enhancing Visual Grounding in Vision-Language Pre-training with Position-Guided Text Prompts](https://ieeexplore.ieee.org/document/10363674)|TPAMI2023|改进vlp，位置引导文本提示，增强vlp的视觉基础能力|baseline|
+  |[Entity-Graph Enhanced Cross-Modal Pretraining for Instance-Level Product Retrieval](https://ieeexplore.ieee.org/document/10169110)|TPAMI2023|使用了vlp，但是写的是具体实例的搜索，什么酒、化妆品之类的|-|
+  |[Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering](https://ieeexplore.ieee.org/document/10146482)|TPAMI2023|视觉问答|-|
   |[Cross-Modal Retrieval With Partially Mismatched Pairs](https://ieeexplore.ieee.org/document/10050111)|TPAMI2023|有检索但没看出是不是vlp||
   |[Universal Multimodal Representation for Language Understanding](https://ieeexplore.ieee.org/document/10005816)|TPAMI2023|vlp||
   |[Integrating Multi-Label Contrastive Learning With Dual Adversarial Graph Neural Networks for Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9815553)|TPAMI2023|虽然是图神经网络做视觉编码器，但可以借鉴一下||  
