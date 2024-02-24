@@ -16,6 +16,7 @@
   |[Deep Multimodal Transfer Learning for Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9236655)|TNNLS2022|深度多模态迁移学习|baseline(待定，不是vlp)|
   |[FDDH: Fast Discriminative Discrete Hashing for Large-Scale Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9429177)|TNNLS2022|高效快速判别离散hash的方法|-|
   |[Image-Text Embedding Learning via Visual and Textual Semantic Reasoning](https://ieeexplore.ieee.org/document/9706340)|tpami2022||||
+  |[X2-VLM: All-In-One Pre-trained Model For Vision-Language Tasks](https://arxiv.org/abs/2211.12402)|tpami2023|统一框架预训练的一体化VLM，用于多粒度视觉语言对齐。模块化：X2-VLM具有灵活的模块化架构，分别具有视觉、文本和融合三个模块。所有模块都基于transformer|baseline(++++)|
   |[Enhancing Visual Grounding in Vision-Language Pre-training with Position-Guided Text Prompts](https://ieeexplore.ieee.org/document/10363674)|TPAMI2023|改进vlp，位置引导文本提示，增强vlp的视觉基础能力|baseline|
   |[Entity-Graph Enhanced Cross-Modal Pretraining for Instance-Level Product Retrieval](https://ieeexplore.ieee.org/document/10169110)|TPAMI2023|使用了vlp，但是写的是具体实例的搜索，什么酒、化妆品之类的|-|
   |[Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering](https://ieeexplore.ieee.org/document/10146482)|TPAMI2023|视觉问答|-|
