@@ -1,14 +1,14 @@
 # Paper List
   | Title | Publication&date | summary | recommend |
   | --- | --- | --- | --- |
-  |[ESA: External Space Attention Aggregation for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10061465)|tcsvt2023|网络架构cnn+bert+esa||
-  |[Semantic Pre-alignment and Ranking Learning with Unified Framework for Cross-modal Retrieval](https://ieeexplore.ieee.org/document/9794649)|tcsvt2022|由三个子网络组成：视觉网络、文本网络和交互网络（对齐）。网络结构可参考，但未使用pretrained架构，无transformer，未涉及vlp模型||
-  |[Hierarchical Feature Aggregation Based on Transformer for Image-Text Matching](https://ieeexplore.ieee.org/document/9745936)|tcsvt2022|为了消除模态之间的语义差距，提出了一种基于 Transformer 的跨模态特征融合方法;图卷积网络||
-  |[CKDH: CLIP-based Knowledge Distillation Hashing for Cross-modal Retrieval](https://ieeexplore.ieee.org/document/10382576)|tcsvt2024|基于CLIP的跨模态检索知识蒸馏哈希（CKDH),利用教师网络上的知识蒸馏来训练一个轻量级网络;和预训练架构区分有点大；hashing||
-  |[Fast, Accurate, and Lightweight Memory-Enhanced Embedding Learning Framework for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10414133)|tcsvt2024|没有用vlp预训练解构，不同模态独立嵌入，特征提取+跨模态图网络+记忆网络||
-  |[Image-Text Retrieval With Cross-Modal Semantic Importance Consistency](https://ieeexplore.ieee.org/document/9940913)|tcsvt2022|单流||
-  |[Unified Transformer With Isomorphic Branches for Natural Language Tracking](https://ieeexplore.ieee.org/document/10159158)|tcsvt2023|自然语言跟踪任务，框架是基于transformer的，可以参考，但具体的下游任务有区别||
-  |[Contrastive Transformer Learning with Proximity Data Generation for Text-Based Person Search](https://ieeexplore.ieee.org/document/10303286)|tcsvt2023|基于文本的人物搜索任务；transformer模型结构跟我们想要的双流结构接近，但任务有区别||
+  |[ESA: External Space Attention Aggregation for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10061465)|tcsvt2023|网络架构cnn+bert+esa|baseline(待定)|
+  |[Semantic Pre-alignment and Ranking Learning with Unified Framework for Cross-modal Retrieval](https://ieeexplore.ieee.org/document/9794649)|tcsvt2022|由三个子网络组成：视觉网络、文本网络和交互网络（对齐）。网络结构可参考，但未使用pretrained架构，无transformer，未涉及vlp模型|传统方法|
+  |[Hierarchical Feature Aggregation Based on Transformer for Image-Text Matching](https://ieeexplore.ieee.org/document/9745936)|tcsvt2022|为了消除模态之间的语义差距，提出了一种基于 Transformer 的跨模态特征融合方法;图卷积网络|-|
+  |[CKDH: CLIP-based Knowledge Distillation Hashing for Cross-modal Retrieval](https://ieeexplore.ieee.org/document/10382576)|tcsvt2024|基于CLIP的跨模态检索知识蒸馏哈希（CKDH),利用教师网络上的知识蒸馏来训练一个轻量级网络;和预训练架构区分有点大；hashing|-|
+  |[Fast, Accurate, and Lightweight Memory-Enhanced Embedding Learning Framework for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10414133)|tcsvt2024|没有用vlp预训练解构，不同模态独立嵌入，特征提取+跨模态图网络+记忆网络|-|
+  |[Image-Text Retrieval With Cross-Modal Semantic Importance Consistency](https://ieeexplore.ieee.org/document/9940913)|tcsvt2022|单流|baseline|
+  |[Unified Transformer With Isomorphic Branches for Natural Language Tracking](https://ieeexplore.ieee.org/document/10159158)|tcsvt2023|自然语言跟踪任务，框架是基于transformer的，可以参考，但具体的下游任务有区别|-|
+  |[Contrastive Transformer Learning with Proximity Data Generation for Text-Based Person Search](https://ieeexplore.ieee.org/document/10303286)|tcsvt2023|基于文本的人物搜索任务；transformer模型结构跟我们想要的双流结构接近，但任务有区别|-|
   |[Deep Semantic Multimodal Hashing Network for Scalable Image-Text and Video-Text Retrievals](https://ieeexplore.ieee.org/document/9109643)|tnnls2023|hash算法|-|
   |[Query-Adaptive Late Fusion for Hierarchical Fine-Grained Video-Text Retrieval](https://ieeexplore.ieee.org/document/9927461)|tnnls2022|文本-视频，查询自适应融合|-|
   |[Relation-Aggregated Cross-Graph Correlation Learning for Fine-Grained Image–Text Retrieval](https://ieeexplore.ieee.org/document/9829420)|tnnls2022|有图像文本检索，但视觉用的是CNN，不知道可不可以做baseline||
