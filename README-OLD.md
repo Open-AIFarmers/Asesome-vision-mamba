@@ -1,6 +1,11 @@
 # Paper List
   | Title | Publication&date | summary | recommend |
   | --- | --- | --- | --- |
+  |[Deep Semantic Multimodal Hashing Network for Scalable Image-Text and Video-Text Retrievals](https://ieeexplore.ieee.org/document/9109643)|tnnls2023|||
+  |[Query-Adaptive Late Fusion for Hierarchical Fine-Grained Video-Text Retrieval](https://ieeexplore.ieee.org/document/9927461)|tnnls2022|||
+  |[Relation-Aggregated Cross-Graph Correlation Learning for Fine-Grained Image–Text Retrieval](https://ieeexplore.ieee.org/document/9829420)|tnnls2022|||
+  |[Keyword-Based Diverse Image Retrieval With Variational Multiple Instance Graph](https://ieeexplore.ieee.org/document/9764824)|tnnls2022|||
+  |[Deep Multimodal Transfer Learning for Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9236655)|tnnls2022|||
   |[Deep Multimodal Transfer Learning for Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9236655)|TNNLS2022|||
   |[FDDH: Fast Discriminative Discrete Hashing for Large-Scale Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9429177)|TNNLS2022|||
   |[Enhancing Visual Grounding in Vision-Language Pre-training with Position-Guided Text Prompts](https://ieeexplore.ieee.org/document/10363674)|TPAMI2023|改进vlp||
