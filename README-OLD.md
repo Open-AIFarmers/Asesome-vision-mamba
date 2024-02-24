@@ -1,6 +1,20 @@
 # Paper List
   | Title | Publication&date | summary | recommend |
   | --- | --- | --- | --- |
+  |[Deep Multimodal Transfer Learning for Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9236655)|TNNLS2022|||
+  |[FDDH: Fast Discriminative Discrete Hashing for Large-Scale Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9429177)|TNNLS2022|||
+
+
+  |[Enhancing Visual Grounding in Vision-Language Pre-training with Position-Guided Text Prompts](https://ieeexplore.ieee.org/document/10363674)|TPAMI2023|改进vlp||
+  |[Entity-Graph Enhanced Cross-Modal Pretraining for Instance-Level Product Retrieval](https://ieeexplore.ieee.org/document/10169110)|TPAMI2023|使用了vlp||
+  |[Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering](https://ieeexplore.ieee.org/document/10146482)|TPAMI2023|视觉问答||
+  |[Cross-Modal Retrieval With Partially Mismatched Pairs](https://ieeexplore.ieee.org/document/10050111)|TPAMI2023|有检索但没看出是不是vlp||
+  |[Universal Multimodal Representation for Language Understanding](https://ieeexplore.ieee.org/document/10005816)|TPAMI2023|vlp||
+  |[Integrating Multi-Label Contrastive Learning With Dual Adversarial Graph Neural Networks for Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9815553)|TPAMI2023|虽然是图神经网络做视觉编码器，但可以借鉴一下||
+
+
+  
+  |||||
   |[Augment the Pairs: Semantics-Preserving Image-Caption Pair Augmentation for Grounding-Based Vision and Language Models](https://arxiv.org/abs/2311.02536)|WACV2024|数据增强,侧重提高数据集质量，还未发表但已接受，可做借鉴|可参考，不复现|
   |[SeTformer is What You Need for Vision and Language](https://arxiv.org/abs/2401.03540)|AAAI2024|新型Transformer，通过将点积自注意力（DPSA）完全替换为自我最优传输（SeT）来提高性能和计算效率,|可参考，可用来对比|
   |[VL-GPT: A Generative Pre-trained Transformer for Vision and Language Understanding and Generation](https://arxiv.org/abs/2312.09251)|arXiv2023-12-14|不能做baseline，侧重于生成模型，但可以参考，创新点较多，如：图像tokenizer-detokenizer框架、连续视觉嵌入标记（IMG）、提出了更好的预训练方法、还能够理解和生成图像等；感觉和单流模式更相似，需要vision and language transformer model|-|
