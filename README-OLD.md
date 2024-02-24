@@ -1,6 +1,7 @@
 # Paper List
   | Title | Publication&date | summary | recommend |
   | --- | --- | --- | --- |
+  |[ESA: External Space Attention Aggregation for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10061465)|tcsvt2023|网络架构cnn+bert+esa||
   |[Semantic Pre-alignment and Ranking Learning with Unified Framework for Cross-modal Retrieval](https://ieeexplore.ieee.org/document/9794649)|tcsvt2022|由三个子网络组成：视觉网络、文本网络和交互网络（对齐）。网络结构可参考，但未使用pretrained架构，无transformer，未涉及vlp模型||
   |[Hierarchical Feature Aggregation Based on Transformer for Image-Text Matching](https://ieeexplore.ieee.org/document/9745936)|tcsvt2022|为了消除模态之间的语义差距，提出了一种基于 Transformer 的跨模态特征融合方法;图卷积网络||
   |[CKDH: CLIP-based Knowledge Distillation Hashing for Cross-modal Retrieval](https://ieeexplore.ieee.org/document/10382576)|tcsvt2024|基于CLIP的跨模态检索知识蒸馏哈希（CKDH),利用教师网络上的知识蒸馏来训练一个轻量级网络;和预训练架构区分有点大；hashing||
