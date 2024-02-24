@@ -17,9 +17,9 @@
   |[Enhancing Visual Grounding in Vision-Language Pre-training with Position-Guided Text Prompts](https://ieeexplore.ieee.org/document/10363674)|TPAMI2023|改进vlp，位置引导文本提示，增强vlp的视觉基础能力|baseline|
   |[Entity-Graph Enhanced Cross-Modal Pretraining for Instance-Level Product Retrieval](https://ieeexplore.ieee.org/document/10169110)|TPAMI2023|使用了vlp，但是写的是具体实例的搜索，什么酒、化妆品之类的|-|
   |[Cross-Modal Causal Relational Reasoning for Event-Level Visual Question Answering](https://ieeexplore.ieee.org/document/10146482)|TPAMI2023|视觉问答|-|
-  |[Cross-Modal Retrieval With Partially Mismatched Pairs](https://ieeexplore.ieee.org/document/10050111)|TPAMI2023|有检索但没看出是不是vlp||
-  |[Universal Multimodal Representation for Language Understanding](https://ieeexplore.ieee.org/document/10005816)|TPAMI2023|vlp||
-  |[Integrating Multi-Label Contrastive Learning With Dual Adversarial Graph Neural Networks for Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9815553)|TPAMI2023|虽然是图神经网络做视觉编码器，但可以借鉴一下||  
+  |[Cross-Modal Retrieval With Partially Mismatched Pairs](https://ieeexplore.ieee.org/document/10050111)|TPAMI2023|不是vlp，提出了新的框架，但没有用图像文本检索|-|
+  |[Universal Multimodal Representation for Language Understanding](https://ieeexplore.ieee.org/document/10005816)|TPAMI2023|给一个句子，检索一组图片，用图片编码补充文字编码联合表示，为NLP下游任务服务，与我们的任务不符合|-|
+  |[Integrating Multi-Label Contrastive Learning With Dual Adversarial Graph Neural Networks for Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9815553)|TPAMI2023|不是vlp模型|-|  
   |||||
   |[Augment the Pairs: Semantics-Preserving Image-Caption Pair Augmentation for Grounding-Based Vision and Language Models](https://arxiv.org/abs/2311.02536)|WACV2024|数据增强,侧重提高数据集质量，还未发表但已接受，可做借鉴|可参考，不复现|
   |[SeTformer is What You Need for Vision and Language](https://arxiv.org/abs/2401.03540)|AAAI2024|新型Transformer，通过将点积自注意力（DPSA）完全替换为自我最优传输（SeT）来提高性能和计算效率,|可参考，可用来对比|
