@@ -29,7 +29,7 @@ This is a collection of resources related to cross modal retrieval&mamba.
 |[Image-Text Retrieval With Cross-Modal Semantic Importance Consistency](https://ieeexplore.ieee.org/document/9940913)|tcsvt2022|单流||baseline|
 |[Relation-Aggregated Cross-Graph Correlation Learning for Fine-Grained Image–Text Retrieval](https://ieeexplore.ieee.org/document/9829420)|tnnls2022|有图像文本检索，但视觉用的是CNN，不知道可不可以做baseline||baseline(待定，不是vlp)|
 |[Deep Multimodal Transfer Learning for Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9236655)|TNNLS2022|深度多模态迁移学习||baseline(待定，不是vlp)|
-|[X2-VLM: All-In-One Pre-trained Model For Vision-Language Tasks](https://arxiv.org/abs/2211.12402)|tpami2023|统一框架预训练的一体化VLM，用于多粒度视觉语言对齐。模块化：X2-VLM具有灵活的模块化架构，分别具有视觉、文本和融合三个模块。所有模块都基于transformer|baseline(++++)|
+|[X2-VLM: All-In-One Pre-trained Model For Vision-Language Tasks](https://arxiv.org/abs/2211.12402)|tpami2023|统一框架预训练的一体化VLM，用于多粒度视觉语言对齐。模块化：X2-VLM具有灵活的模块化架构，分别具有视觉、文本和融合三个模块。所有模块都基于transformer||baseline(++++)|
 |[Enhancing Visual Grounding in Vision-Language Pre-training with Position-Guided Text Prompts](https://ieeexplore.ieee.org/document/10363674)|TPAMI2023|改进vlp，位置引导文本提示，增强vlp的视觉基础能力||baseline|
 |[Cross-Modal Retrieval With Partially Mismatched Pairs](https://ieeexplore.ieee.org/document/10050111)|TPAMI2023|不是vlp，提出了新的框架，但没有用图像文本检索||可参考数据不匹配处理方法|
 |[Unifying Two-Stream Encoders with Transformers for Cross-Modal Retrieval](https://dl.acm.org/doi/abs/10.1145/3581783.3612427)|MM2023|双流，视觉transformer+语言transformer+对齐||baseline(复现)|
