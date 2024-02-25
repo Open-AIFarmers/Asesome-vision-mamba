@@ -23,10 +23,10 @@ This is a collection of resources related to cross modal retrieval&mamba.
 # baselines
 |title|publication&date|summary|cost|recommendation|
 |---|---|---|---|---|
-|[ESA: External Space Attention Aggregation for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10061465)|tcsvt2023|网络架构cnn+bert+esa||baseline(待定，不是vlp)|
-|[Semantic Pre-alignment and Ranking Learning with Unified Framework for Cross-modal Retrieval](https://ieeexplore.ieee.org/document/9794649)|tcsvt2022|由三个子网络组成：视觉网络、文本网络和交互网络（对齐）。网络结构可参考，但未使用pretrained架构，无transformer，未涉及vlp模型||传统方法|
-|[Fast, Accurate, and Lightweight Memory-Enhanced Embedding Learning Framework for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10414133)|tcsvt2024|没有用vlp预训练解构，不同模态独立嵌入，特征提取+跨模态图网络+记忆网络||baseline|
-|[Image-Text Retrieval With Cross-Modal Semantic Importance Consistency](https://ieeexplore.ieee.org/document/9940913)|tcsvt2022|单流||baseline|
+|[ESA: External Space Attention Aggregation for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10061465) [code](https://github.com/KevinLight831/ESA)|tcsvt2023|网络架构cnn+bert+esa||baseline(待定，不是vlp)|
+|[Semantic Pre-alignment and Ranking Learning with Unified Framework for Cross-modal Retrieval](https://ieeexplore.ieee.org/document/9794649)|tcsvt2022|由三个子网络组成：视觉网络、文本网络和交互网络（对齐）。网络结构可参考，但未使用pretrained架构，无transformer，未涉及vlp模型;无代码||传统方法|
+|[Fast, Accurate, and Lightweight Memory-Enhanced Embedding Learning Framework for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10414133)|tcsvt2024|没有用vlp预训练解构，不同模态独立嵌入，特征提取+跨模态图网络+记忆网络;这篇属于偏传统的方法，但整体思路挺有意思，但好像没代码||baseline|
+|[Image-Text Retrieval With Cross-Modal Semantic Importance Consistency](https://ieeexplore.ieee.org/document/9940913)|tcsvt2022|单流;无代码||baseline|
 |[Relation-Aggregated Cross-Graph Correlation Learning for Fine-Grained Image–Text Retrieval](https://ieeexplore.ieee.org/document/9829420)|tnnls2022|有图像文本检索，但视觉用的是CNN，不知道可不可以做baseline||baseline(待定，不是vlp)|
 |[Deep Multimodal Transfer Learning for Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9236655)|TNNLS2022|深度多模态迁移学习||baseline(待定，不是vlp)|
 |[X2-VLM: All-In-One Pre-trained Model For Vision-Language Tasks](https://arxiv.org/abs/2211.12402)|tpami2023|统一框架预训练的一体化VLM，用于多粒度视觉语言对齐。模块化：X2-VLM具有灵活的模块化架构，分别具有视觉、文本和融合三个模块。所有模块都基于transformer||baseline(++++)|
