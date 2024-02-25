@@ -23,25 +23,26 @@ This is a collection of resources related to cross modal retrieval&mamba.
 # baselines
 |title|publication&date|summary|cost|recommendation|
 |---|---|---|---|---|
-|[ESA: External Space Attention Aggregation for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10061465) [code](https://github.com/KevinLight831/ESA)|tcsvt2023|网络架构cnn+bert+esa||baseline(待定，不是vlp)|
-|[Semantic Pre-alignment and Ranking Learning with Unified Framework for Cross-modal Retrieval](https://ieeexplore.ieee.org/document/9794649)|tcsvt2022|由三个子网络组成：视觉网络、文本网络和交互网络（对齐）。网络结构可参考，但未使用pretrained架构，无transformer，未涉及vlp模型;无代码||传统方法|
-|[Fast, Accurate, and Lightweight Memory-Enhanced Embedding Learning Framework for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10414133)|tcsvt2024|没有用vlp预训练解构，不同模态独立嵌入，特征提取+跨模态图网络+记忆网络;这篇属于偏传统的方法，但整体思路挺有意思，但好像没代码||baseline|
-|[Image-Text Retrieval With Cross-Modal Semantic Importance Consistency](https://ieeexplore.ieee.org/document/9940913)|tcsvt2022|单流;无代码||baseline|
-|[Relation-Aggregated Cross-Graph Correlation Learning for Fine-Grained Image–Text Retrieval](https://ieeexplore.ieee.org/document/9829420)|tnnls2022|有图像文本检索，但视觉用的是CNN，不知道可不可以做baseline||baseline(待定，不是vlp)|
-|[Deep Multimodal Transfer Learning for Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9236655)|TNNLS2022|深度多模态迁移学习||baseline(待定，不是vlp)|
-|[X2-VLM: All-In-One Pre-trained Model For Vision-Language Tasks](https://arxiv.org/abs/2211.12402)|tpami2023|统一框架预训练的一体化VLM，用于多粒度视觉语言对齐。模块化：X2-VLM具有灵活的模块化架构，分别具有视觉、文本和融合三个模块。所有模块都基于transformer||baseline(++++)|
-|[Enhancing Visual Grounding in Vision-Language Pre-training with Position-Guided Text Prompts](https://ieeexplore.ieee.org/document/10363674)|TPAMI2023|改进vlp，位置引导文本提示，增强vlp的视觉基础能力||baseline|
-|[Cross-Modal Retrieval With Partially Mismatched Pairs](https://ieeexplore.ieee.org/document/10050111)|TPAMI2023|不是vlp，提出了新的框架，但没有用图像文本检索||可参考数据不匹配处理方法|
-|[Unifying Two-Stream Encoders with Transformers for Cross-Modal Retrieval](https://dl.acm.org/doi/abs/10.1145/3581783.3612427)|MM2023|双流，视觉transformer+语言transformer+对齐||baseline(复现)|
-|[Image as a Foreign Language: BEIT Pretraining for All Vision and Vision-Language Tasks](https://arxiv.org/abs/2208.10442)|CVPR2023|将ViT和Bert结合，自监督学习；||baseline(待定)|
-|[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597)|ACL2023|1、轻量架构QFormer（querying transformer），2、二阶段预训练范式，与LLM模型链接起来；构建图像和文本之间的对齐former，在检索任务上精度较高||baseline(待定复现)|
-|[COTS: Collaborative Two-Stream Vision-Language Pre-Training Model for Cross-Modal Retrieval](https://openaccess.thecvf.com/content/CVPR2022/html/Lu_COTS_Collaborative_Two-Stream_Vision-Language_Pre-Training_Model_for_Cross-Modal_Retrieval_CVPR_2022_paper.html)|CVPR2022|双流VLP模型||可参考，无代码|
+|[ESA: External Space Attention Aggregation for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10061465)  [code](https://github.com/KevinLight831/ESA)|tcsvt2023|网络架构cnn+bert+esa||baseline(复现)|
+|[X2-VLM: All-In-One Pre-trained Model For Vision-Language Tasks](https://arxiv.org/abs/2211.12402)|tpami2023|统一框架预训练的一体化VLM，用于多粒度视觉语言对齐。模块化：X2-VLM具有灵活的模块化架构，分别具有视觉、文本和融合三个模块。所有模块都基于transformer||baseline(复现)|
+|[Enhancing Visual Grounding in Vision-Language Pre-training with Position-Guided Text Prompts](https://ieeexplore.ieee.org/document/10363674)|TPAMI2023|改进vlp，位置引导文本提示，增强vlp的视觉基础能力||baseline(复现)|
+|[Image as a Foreign Language: BEIT Pretraining for All Vision and Vision-Language Tasks](https://arxiv.org/abs/2208.10442)|CVPR2023|将ViT和Bert结合，自监督学习；||baseline(复现)|
+|[BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597)|ACL2023|1、轻量架构QFormer（querying transformer），2、二阶段预训练范式，与LLM模型链接起来；构建图像和文本之间的对齐former，在检索任务上精度较高||baseline(复现)|
 |[An Empirical Study of Training End-to-End Vision-and-Language Transformers](https://arxiv.org/abs/2111.02387)|CVPR2022|训练端到端视觉和语言变压器的实证研究，很有意思的一篇文章，测试很多不同部分用不同方法的模型性能，虽然是2022年，但CVPR值得一看||baseline(复现)|
+|[Fast, Accurate, and Lightweight Memory-Enhanced Embedding Learning Framework for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10414133)|tcsvt2024|没有用vlp预训练解构，不同模态独立嵌入，特征提取+跨模态图网络+记忆网络;这篇属于偏传统的方法，但整体思路挺有意思，但好像没代码||baseline要代码|
+||||||
+|[Semantic Pre-alignment and Ranking Learning with Unified Framework for Cross-modal Retrieval](https://ieeexplore.ieee.org/document/9794649)|tcsvt2022|由三个子网络组成：视觉网络、文本网络和交互网络（对齐）。网络结构可参考，但未使用pretrained架构，无transformer，未涉及vlp模型;无代码暂不考虑|||
+|[Image-Text Retrieval With Cross-Modal Semantic Importance Consistency](https://ieeexplore.ieee.org/document/9940913)|tcsvt2022|单流;无代码|||
+|[Relation-Aggregated Cross-Graph Correlation Learning for Fine-Grained Image–Text Retrieval](https://ieeexplore.ieee.org/document/9829420)|tnnls2022|有图像文本检索，但视觉用的是CNN，不知道可不可以做baseline||baseline(无代码不复现)|
+|[Deep Multimodal Transfer Learning for Cross-Modal Retrieval](https://ieeexplore.ieee.org/document/9236655)|TNNLS2022|深度多模态迁移学习||baseline(不复现)|
+|[Cross-Modal Retrieval With Partially Mismatched Pairs](https://ieeexplore.ieee.org/document/10050111)|TPAMI2023|不是vlp，提出了新的框架，但没有用图像文本检索|||
+|[Unifying Two-Stream Encoders with Transformers for Cross-Modal Retrieval](https://dl.acm.org/doi/abs/10.1145/3581783.3612427)|MM2023|双流，视觉transformer+语言transformer+对齐|||
+|[COTS: Collaborative Two-Stream Vision-Language Pre-Training Model for Cross-Modal Retrieval](https://openaccess.thecvf.com/content/CVPR2022/html/Lu_COTS_Collaborative_Two-Stream_Vision-Language_Pre-Training_Model_for_Cross-Modal_Retrieval_CVPR_2022_paper.html)|CVPR2022|双流VLP模型||可参考，无代码|
 |[ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision](https://arxiv.org/abs/2102.03334)|ICML2021|a minimal VLP model,体量小速度快，但精度一般，可做baseline|[Microsoft COCO (MSCOCO)、Visual Genome (VG)、SBU Captions (SBU)、Google Conceptual Captions (GCC)] [pre-train ViLT-B/32 for 100K or 200K steps on 64 NVIDIA V100 GPUs with a batch size of 4,096]|baseline(不复现)|
 |[Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision](https://arxiv.org/abs/2102.05918)|ICML2021|ALIGN,十亿噪声数据集||baseline(不复现)|
-|[Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651)|ICML2021|ALBEF,对比损失，动量蒸馏，混合流模型||baseline(复现)|
-|[CLIP:Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)|openai2021|||baseline(待定)|
-|[VinVL: Revisiting Visual Representations in Vision-Language Models](https://arxiv.org/abs/2101.00529)|CVPR2021|||baseline(待定)|
+|[Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651)|ICML2021|ALBEF,对比损失，动量蒸馏，混合流模型||baseline(不复现)|
+|[CLIP:Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)|openai2021|||baseline(不复现)|
+|[VinVL: Revisiting Visual Representations in Vision-Language Models](https://arxiv.org/abs/2101.00529)|CVPR2021|||baseline(不复现)|
 ||||||
 
 <a name="数据集" />
