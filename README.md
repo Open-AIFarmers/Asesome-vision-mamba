@@ -23,7 +23,7 @@ This is a collection of resources related to cross modal retrieval&mamba.
 # baselines
 |title|publication&date|summary|data&cost|recommendation|
 |---|---|---|---|---|
-|[ESA: External Space Attention Aggregation for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10061465)  [code](https://github.com/KevinLight831/ESA)|tcsvt2023|网络架构cnn+bert+esa||baseline(复现)|
+|[ESA: External Space Attention Aggregation for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10061465)  [code](https://github.com/KevinLight831/ESA)|tcsvt2023|网络架构cnn+bert+esa|Flicker30K：1000 images for validation, 1000 images for testing, and 29000 images for training；MS-COCO：113,287 training images, 5000 test images, and 5000 validation images；所有的训练都在一张RTX 3090|baseline(复现)|
 |[X2-VLM: All-In-One Pre-trained Model For Vision-Language Tasks](https://arxiv.org/abs/2211.12402)|tpami2023|统一框架预训练的一体化VLM，用于多粒度视觉语言对齐。模块化：X2-VLM具有灵活的模块化架构，分别具有视觉、文本和融合三个模块。所有模块都基于transformer||baseline(复现)|
 |[Enhancing Visual Grounding in Vision-Language Pre-training with Position-Guided Text Prompts](https://ieeexplore.ieee.org/document/10363674)|TPAMI2023|改进vlp，位置引导文本提示，增强vlp的视觉基础能力||baseline(复现)|
 |[Image as a Foreign Language: BEIT Pretraining for All Vision and Vision-Language Tasks](https://arxiv.org/abs/2208.10442)|CVPR2023|将ViT和Bert结合，自监督学习；||baseline(复现)|
