@@ -21,7 +21,7 @@ This is a collection of resources related to cross modal retrieval&mamba.
 <a name="baselines" />
 
 # baselines
-|title|publication&date|summary|cost|recommendation|
+|title|publication&date|summary|data&cost|recommendation|
 |---|---|---|---|---|
 |[ESA: External Space Attention Aggregation for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10061465)  [code](https://github.com/KevinLight831/ESA)|tcsvt2023|网络架构cnn+bert+esa||baseline(复现)|
 |[X2-VLM: All-In-One Pre-trained Model For Vision-Language Tasks](https://arxiv.org/abs/2211.12402)|tpami2023|统一框架预训练的一体化VLM，用于多粒度视觉语言对齐。模块化：X2-VLM具有灵活的模块化架构，分别具有视觉、文本和融合三个模块。所有模块都基于transformer||baseline(复现)|
