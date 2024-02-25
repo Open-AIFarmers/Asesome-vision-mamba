@@ -31,6 +31,8 @@ This is a collection of resources related to cross modal retrieval&mamba.
 |[An Empirical Study of Training End-to-End Vision-and-Language Transformers](https://arxiv.org/abs/2111.02387)|CVPR2022|训练端到端视觉和语言变压器的实证研究，很有意思的一篇文章，测试很多不同部分用不同方法的模型性能，虽然是2022年，但CVPR值得一看||baseline(复现)|
 |[Fast, Accurate, and Lightweight Memory-Enhanced Embedding Learning Framework for Image-Text Retrieval](https://ieeexplore.ieee.org/document/10414133)|tcsvt2024|没有用vlp预训练解构，不同模态独立嵌入，特征提取+跨模态图网络+记忆网络;这篇属于偏传统的方法，但整体思路挺有意思，但好像没代码||baseline要代码|
 ||||||
+||||||
+||||||
 |[Semantic Pre-alignment and Ranking Learning with Unified Framework for Cross-modal Retrieval](https://ieeexplore.ieee.org/document/9794649)|tcsvt2022|由三个子网络组成：视觉网络、文本网络和交互网络（对齐）。网络结构可参考，但未使用pretrained架构，无transformer，未涉及vlp模型;无代码暂不考虑|||
 |[Image-Text Retrieval With Cross-Modal Semantic Importance Consistency](https://ieeexplore.ieee.org/document/9940913)|tcsvt2022|单流;无代码|||
 |[Relation-Aggregated Cross-Graph Correlation Learning for Fine-Grained Image–Text Retrieval](https://ieeexplore.ieee.org/document/9829420)|tnnls2022|有图像文本检索，但视觉用的是CNN，不知道可不可以做baseline||baseline(无代码不复现)|
