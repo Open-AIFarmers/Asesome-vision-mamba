@@ -130,8 +130,9 @@ This is a collection of resources related to cross modal retrieval&mamba.
 ### 3.1 2024
 1. **Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference.** *Han Zhao, Min Zhang, Wei Zhao, Pengxiang Ding, Siteng Huang, Donglin Wang* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.14520)
 2. **VL-Mamba: Exploring State Space Models for Multimodal Learning.** *Yanyuan Qiao, Zheng Yu, Longteng Guo, Sihan Chen, Zijia Zhao, Mingzhen Sun, Qi Wu, Jing Liu* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.13600)
-3. **EfficientVMamba: Atrous Selective Scan for Light Weight Visual Mamba.** *Xiaohuan Pei, Tao Huang, Chang Xu* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.09977)
-4. **Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM.** *Zeyu Zhang, Akide Liu, Ian Reid, Richard Hartley, Bohan Zhuang, Hao Tang* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.07487)
+3. **VMamba: Visual State Space Model** *Yue Liu, Yunjie Tian, Yuzhong Zhao, Hongtian Yu, Lingxi Xie, Yaowei Wang, Qixiang Ye, Yunfan Liu* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2401.10166)
+4. **EfficientVMamba: Atrous Selective Scan for Light Weight Visual Mamba.** *Xiaohuan Pei, Tao Huang, Chang Xu* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.09977)
+5. **Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM.** *Zeyu Zhang, Akide Liu, Ian Reid, Richard Hartley, Bohan Zhuang, Hao Tang* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.07487)
 
 
 <a name="model" />
