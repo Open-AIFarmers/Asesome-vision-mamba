@@ -126,6 +126,10 @@ This is a collection of resources related to cross modal retrieval&mamba.
 2. **SeTformer is What You Need for Vision and Language.** *Pourya Shamsolmoali, Masoumeh Zareapoor, Eric Granger, Michael Felsberg* 2024 [paper] [vision and language transformer] (https://arxiv.org/abs/2401.03540)
 3. 
 
+## 3 Mamba
+### 3.1 2024
+1. **Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference.** *Han Zhao, Min Zhang, Wei Zhao, Pengxiang Ding, Siteng Huang, Donglin Wang* 2024 [paper] (https://arxiv.org/abs/2403.14520)
+
 
 <a name="model" />
 
