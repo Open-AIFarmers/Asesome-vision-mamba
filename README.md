@@ -128,7 +128,9 @@ This is a collection of resources related to cross modal retrieval&mamba.
 
 ## 3 Mamba
 ### 3.1 2024
-1. **Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference.** *Han Zhao, Min Zhang, Wei Zhao, Pengxiang Ding, Siteng Huang, Donglin Wang* 2024 [paper] (https://arxiv.org/abs/2403.14520)
+1. **Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference.** *Han Zhao, Min Zhang, Wei Zhao, Pengxiang Ding, Siteng Huang, Donglin Wang* CVPR2024 [paper] (https://arxiv.org/abs/2403.14520)
+2. **EfficientVMamba: Atrous Selective Scan for Light Weight Visual Mamba.** *Xiaohuan Pei, Tao Huang, Chang Xu* CVPR2024 [paper] (https://arxiv.org/abs/2403.09977)
+3. **Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM.** *Zeyu Zhang, Akide Liu, Ian Reid, Richard Hartley, Bohan Zhuang, Hao Tang* CVPR2024 [paper] (https://arxiv.org/abs/2403.07487)
 
 
 <a name="model" />
