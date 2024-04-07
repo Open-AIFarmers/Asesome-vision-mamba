@@ -156,11 +156,11 @@ This is a collection of resources related to cross modal retrieval&mamba.
 1. **Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM.** *Zeyu Zhang, Akide Liu, Ian Reid, Richard Hartley, Bohan Zhuang, Hao Tang* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.07487)
 
 
-# Mamba paperlist
+# Summary of Mamba paperlist
 |title|publication&date|summary|recommendation|
 |---|---|---|---|
-|[Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference.](https://arxiv.org/abs/2403.14520) |arxiv|网络架构cnn+bert+esa|Flicker30K：1000 images for validation, 1000 images for testing, and 29000 images for training；<br> MS-COCO：113,287 training images, 5000 test images, and 5000 validation images；<br> 所有的训练都在一张**RTX 3090**||
-|[VL-Mamba: Exploring State Space Models for Multimodal Learning.](https://arxiv.org/abs/2403.13600)|arxiv|||
+|[Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference.](https://arxiv.org/abs/2403.14520) |arxiv2024|||
+|[VL-Mamba: Exploring State Space Models for Multimodal Learning.](https://arxiv.org/abs/2403.13600)|arxiv2024|||
 
 
 <a name="model" />
