@@ -16,7 +16,9 @@ This is a collection of resources related to cross modal retrieval&mamba.
      - [2.3 2023](#2023)
      - [2.4 2024](#2024)
   - [3 Mamba](#Mamba)
-     - [3.1 MLLM](#2024)
+     - [3.1 MLLM](#MLLM)
+     - [3.2 Visual Mamba](#Visual)
+     - [3.3 Improve Structure of Mamba](#Structure)
 - [模型解构](#model)
 - [Codes](#Codes)
   
@@ -134,11 +136,13 @@ This is a collection of resources related to cross modal retrieval&mamba.
 ### 3.1 MLLM
 1. **Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference.** *Han Zhao, Min Zhang, Wei Zhao, Pengxiang Ding, Siteng Huang, Donglin Wang* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.14520)
 2. **VL-Mamba: Exploring State Space Models for Multimodal Learning.** *Yanyuan Qiao, Zheng Yu, Longteng Guo, Sihan Chen, Zijia Zhao, Mingzhen Sun, Qi Wu, Jing Liu* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.13600)
+<a name="Visual" />
 ### 3.2 Visual Mamba
 1. **VMamba: Visual State Space Model** *Yue Liu, Yunjie Tian, Yuzhong Zhao, Hongtian Yu, Lingxi Xie, Yaowei Wang, Qixiang Ye, Yunfan Liu* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2401.10166)
 2. **VM-UNet: Vision Mamba UNet for Medical Image Segmentation** *Jiacheng Ruan, Suncheng Xiang* **arxiv** [paper] (https://arxiv.org/abs/2402.02491)
 3. **EfficientVMamba: Atrous Selective Scan for Light Weight Visual Mamba.** *Xiaohuan Pei, Tao Huang, Chang Xu* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.09977)
-### 3.3 Structure of Mamba
+<a name="Structure" />
+### 3.3 Improve Structure of Mamba
 1. **Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM.** *Zeyu Zhang, Akide Liu, Ian Reid, Richard Hartley, Bohan Zhuang, Hao Tang* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.07487)
 
 
