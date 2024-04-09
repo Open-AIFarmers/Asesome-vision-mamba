@@ -19,6 +19,7 @@ This is a collection of resources related to cross modal retrieval&mamba.
      - [3.1 MLLM](#MLLM)
      - [3.2 Visual Mamba](#Visual)
      - [3.3 Improve Structure of Mamba](#Structure)
+     - [3.4 other task](#other)
 - [模型解构](#model)
 - [Codes](#Codes)
   
@@ -146,22 +147,49 @@ This is a collection of resources related to cross modal retrieval&mamba.
 <a name="Visual" />
 
 ### 3.2 Visual Mamba
-1. **VMamba: Visual State Space Model** *Yue Liu, Yunjie Tian, Yuzhong Zhao, Hongtian Yu, Lingxi Xie, Yaowei Wang, Qixiang Ye, Yunfan Liu* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2401.10166)
-2. **VM-UNet: Vision Mamba UNet for Medical Image Segmentation** *Jiacheng Ruan, Suncheng Xiang* **arxiv** [paper] (https://arxiv.org/abs/2402.02491)
-3. **EfficientVMamba: Atrous Selective Scan for Light Weight Visual Mamba.** *Xiaohuan Pei, Tao Huang, Chang Xu* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.09977)
+1. **Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model(Vim,仿照ViT)** *Lianghui Zhu, Bencheng Liao, Qian Zhang, Xinlong Wang, Wenyu Liu, Xinggang Wang* **arXiv - CS - Machine Learning** [paper] (https://arxiv.org/abs/2401.09417)
+2. **VMamba: Visual State Space Model(Mamba引入交叉扫描模块CSM)** *Yue Liu, Yunjie Tian, Yuzhong Zhao, Hongtian Yu, Lingxi Xie, Yaowei Wang, Qixiang Ye, Yunfan Liu* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2401.10166)
+3. **VM-UNet: Vision Mamba UNet for Medical Image Segmentation(医学图像分割)** *Jiacheng Ruan, Suncheng Xiang* **arxiv** [paper] (https://arxiv.org/abs/2402.02491)、
+4. **LightM-UNet: Mamba Assists in Lightweight UNet for Medical Image Segmentation(轻量级UNet,医学图像分割)** *Weibin Liao, Yinghao Zhu, Xinyuan Wang, Chengwei Pan, Yasha Wang, Liantao Ma* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.05246)
+5. **EfficientVMamba: Atrous Selective Scan for Light Weight Visual Mamba(轻量级VMmamba)** *Xiaohuan Pei, Tao Huang, Chang Xu* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.09977)
+6. **RSMamba: Remote Sensing Image Classification with State Space Model(遥感图像分类)** *Keyan Chen, Bowen Chen, Chenyang Liu, Wenyuan Li, Zhengxia Zou, Zhenwei Shi* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.19654)
+7. **ReMamber: Referring Image Segmentation with Mamba Twister(视觉语言,图像分割)** *Yuhuan Yang, Chaofan Ma, Jiangchao Yao, Zhun Zhong, Ya Zhang, Yanfeng Wang* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.17839)
+8. **LocalMamba: Visual State Space Model with Windowed Selective Scan(窗口选择性选择Vim)** *Tao Huang, Xiaohuan Pei, Shan You, Fei Wang, Chen Qian, Chang Xu* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.09338)
+
 
 <a name="Structure" />
 
 ### 3.3 Improve Structure of Mamba
-1. **Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM.** *Zeyu Zhang, Akide Liu, Ian Reid, Richard Hartley, Bohan Zhuang, Hao Tang* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.07487)
+1. **Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM(分层和双向选择性,人体运动生成)** *Zeyu Zhang, Akide Liu, Ian Reid, Richard Hartley, Bohan Zhuang, Hao Tang* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.07487)
+2. **Jamba: A Hybrid Transformer-Mamba Language Model(混合模型)** *Opher Lieber, Barak Lenz, Hofit Bata, Gal Cohen, Jhonathan Osin, Itay Dalmedigos, Erez Safahi, Shaked Meirom* **arXiv - CS - Machine Learning ** [paper] (https://arxiv.org/abs/2403.19887)
+3. **PlainMamba: Improving Non-Hierarchical Mamba in Visual Recognition(非分层视觉识别)** *Chenhongyi Yang, Zehui Chen, Miguel Espinosa, Linus Ericsson, Zhenyu Wang, Jiaming Liu, Elliot J. Crowley* **arXiv - CS - Machine Learning** [paper] (https://arxiv.org/abs/2403.17695)
+4. **SiMBA: Simplified Mamba-Based Architecture for Vision and Multivariate Time series(与EinFFT结合)** *Badri N. Patro, Vijay S. Agneeswaran* **arXiv - CS - Machine Learning** [paper] (https://arxiv.org/abs/2403.15360)
+
+
+
+<a name="other" />
+
+### 3.4 other task
+1. **Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation(多模态感知任务)** *Zifu Wan, Yuhao Wang, Silong Yong, Pingping Zhang, Simon Stepputtis, Katia Sycara, Yaqi Xie* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2404.04256)
+2. **Decision Mamba: Reinforcement Learning via Sequence Modeling with Selective State Spaces(强化学习)** *Toshihiro Ota* **arXiv - CS - Artificial Intelligence ** [paper] (https://arxiv.org/abs/2403.19925)
+3. **HARMamba: Efficient Wearable Sensor Human Activity Recognition Based on Bidirectional Selective SSM(人体动作识别)** *Shuangjian Li, Tao Zhu, Furong Duan, Liming Chen, Huansheng Ning, Yaping Wan* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.20183)
+4. **Dual-path Mamba: Short and Long-term Bidirectional Selective Structured State Space Models for Speech Separation(语音分离)** *Xilin Jiang, Cong Han, Nima Mesgarani* **arXiv - EE - Audio and Speech Processing** [paper] (https://arxiv.org/abs/2403.18257)
+5. **VMRNN: Integrating Vision Mamba and LSTM for Efficient and Accurate Spatiotemporal Forecasting(Vim和LSTM结合,时空预测任务)** *Yujin Tang, Peijie Dong, Zhenheng Tang, Xiaowen Chu, Junwei Liang* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.16536)
+6. **Proprioception Is All You Need: Terrain Classification for Boreal Forests(野外机器人领域:北方森林地形的分类)** *Damien LaRocque, William Guimont-Martin, David-Alexandre Duclos, Philippe Giguère, François Pomerleau* **arXiv - CS - Artificial Intelligence** [paper] (https://arxiv.org/abs/2403.16877)
+7. **ZigMa: Zigzag Mamba Diffusion Model(视觉数据生成)** *Vincent Tao Hu, Stefan Andreas Baumann, Ming Gui, Olga Grebenkova, Pingchuan Ma, Johannes Fischer, Bjorn Ommer* **arXiv - CS - Machine Learning** [paper] (https://arxiv.org/abs/2403.13802)
+8. **STG-Mamba: Spatial-Temporal Graph Learning via Selective State Space Model(时空图)** *Lincan Li, Hanchen Wang, Wenjie Zhang, Adelle Coster* **arXiv - CS - Artificial Intelligence** [paper] (https://arxiv.org/abs/2403.12418)
+9. **Video Mamba Suite: State Space Model as a Versatile Alternative for Video Understanding(视频理解)** *Guo Chen, Yifei Huang, Jilan Xu, Baoqi Pei, Zhe Chen, Zhiqi Li, Jiahao Wang, Kunchang Li, Tong Lu, Limin Wang* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.09626)
+10. **VideoMamba: State Space Model for Efficient Video Understanding(视频理解)** *Kunchang Li, Xinhao Li, Yi Wang, Yinan He, Yali Wang, Limin Wang, Yu Qiao* **arxiv CVPR2024** [paper] (https://arxiv.org/abs/2403.06977)
+11. 
 
 
 # Summary of Mamba paperlist
 |title|publication&date|summary|recommendation|
 |---|---|---|---|
-|[Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference.](https://arxiv.org/abs/2403.14520) |arxiv2024|||
-|[VL-Mamba: Exploring State Space Models for Multimodal Learning.](https://arxiv.org/abs/2403.13600)|arxiv2024|||
-
+|[Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference.](https://arxiv.org/abs/2403.14520) |arxiv2024|MLLM||
+|[VL-Mamba: Exploring State Space Models for Multimodal Learning.](https://arxiv.org/abs/2403.13600)|arxiv2024|MLLM||
+|[ReMamber: Referring Image Segmentation with Mamba Twister](https://arxiv.org/abs/2403.17839)|arxiv2024|这篇用视觉语言多模态交互，完成图像分割任务，与我们的任务很相似，里面提到Mamba对多模态交互的疲软，也是我遇到的问题||
+|[Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation](https://arxiv.org/abs/2404.04256)|arxiv2024|多模态感知任务||
 
 <a name="model" />
 
